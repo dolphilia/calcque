@@ -1,0 +1,16 @@
+---
+import PollCalculator from '../components/PollCalculator.vue';
+import '../styles/global.css'; // Tailwind CSS のグローバルスタイルをインポート
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poll Vote Calculator</title>
+    <link rel="stylesheet" href="/calcque_webapp/styles/global.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <h1 class="text-center font-bold text-xl mt-5">Poll Vote Calculator</h1>
+    <PollCalculator client:load/>
+</body>
+</html>
